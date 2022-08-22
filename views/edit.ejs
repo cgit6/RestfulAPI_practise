@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Updata user message</h1>
+    <form action="/user/edit/<%= data.id %>?_method=PUT" method="POST">
+      <!-- id -->
+      <label for="id">id:</label>
+      <input type="number" id="id" name="id" value="<%= data.id %>"  />
+      <!-- username -->
+      <label for="username">username:</label>
+      <input type="text" id="username" name="username" value="<%= data.username %>"" />
+      <!-- password -->
+      <label for="password">password:</label>
+      <input type="password" id="password" name="password" value="<%= data.password %>"/>
+      <!-- email -->
+      <label for="email">email:</label>
+      <input type="email" id="email" name="email"  value="<%= data.email %>"/>
+      <!-- button -->
+      <button>sign up</button>
+    </form>
+  </body>
+</html>
+
+</body>
+</html>
