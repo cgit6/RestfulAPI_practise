@@ -1,1 +1,4 @@
 # RestfulAPI_practise
+
+簡介
+一開始做了一個簡單的輸入系統，後來了解到RestfulAPI試著將原本的系統轉換成RestfulAPI，主要透過postman控制route來實現該系統
